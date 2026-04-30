@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.nav {
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    font-family: sans-serif;
+
+}
+
+.navbar {
+    width: 88%;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+ul {
+    margin-top: 1%;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    transition: -4s ease;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+.home {
+    margin-left: 4%;
+    margin-top: 13%;
+}
+
+.home h1 {
+    font-size: 45px;
+    color: black;
+}
+
+.home h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: black;
+}
+
+.home span {
+    color: red;
+}
+
+.image {
+    top: 35%;
+    width: 21%;
+    height: 50%;
+    position: absolute;
+    right: 110px;
+    bottom: 0;
+}
+
+.image img {
+    position: absolute;
+    height: 140%;
+    left: 40px;
+    transform: translate(-50%);
+    bottom: 0;
+    border-radius: 49%;
+}
+
+/* Skills Section */
+.skills {
+    clear: both;
+    margin-top: 350px;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.skills h2 {
+    color: #d32f2f;
+    margin-bottom: 15px;
+}
+
+.skills ul {
+    list-style: disc inside;
+    color: #333;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+/* Education Section */
+.education {
+    margin: 40px 4% 0 4%;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.education h2 {
+    color: #1976d2;
+    margin-bottom: 10px;
+}
+
+.education p {
+    color: #444;
+    font-size: 18px;
+}
+
+/* Projects Section */
+.projects {
+    margin: 40px 4% 0 4%;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.projects h2 {
+    color: #388e3c;
+    margin-bottom: 15px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.project p {
+    color: #555;
+    font-size: 17px;
+}
+
+/* Contact Section */
+.contact {
+    margin: 40px 4% 40px 4%;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.contact h2 {
+    color: #d32f2f;
+    margin-bottom: 10px;
+}
+
+.contact p,
+.contact a {
+    color: #444;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #d32f2f;
+    text-decoration: underline;
+}
