@@ -150,6 +150,12 @@ ul li a:hover {
 .project p {
     color: #555;
     font-size: 17px;
+    margin-bottom: 10px;
+}
+.project a {
+    color: #1976d2;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 /* Contact Section */
